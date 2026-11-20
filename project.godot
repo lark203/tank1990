@@ -1,0 +1,29 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Tank 1940"
+config/version="0.1"
+run/main_scene="res://src/main.tscn"
+config/features=PackedStringArray("4.7")
+
+[display]
+
+window/size/viewport_width=816
+window/size/viewport_height=672
+window/size/window_width_override=1088
+window/size/window_height_override=896
+window/stretch/mode="canvas_items"
+window/stretch/aspect="keep_aspect"
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0

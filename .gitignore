@@ -1,0 +1,10 @@
+# Godot engine cache / imported binary resources
+.godot/
+
+# Build output (Tank1940.exe is ~105MB > GitHub's 100MB single-file limit)
+build/
+
+# OS / editor
+Thumbs.db
+.DS_Store
+*.tmp
